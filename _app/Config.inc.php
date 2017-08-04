@@ -2,10 +2,10 @@
 // CONFIGRAÇÕES DO SITE ####################
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', 'developer88#');
+define('PASS', '');
 define('DBSA', 'bdt_sincloud');
 
-define('ROOT', 'http://' . $_SERVER['HTTP_HOST'].'/siscom');
+define('ROOT', 'http://' . $_SERVER['HTTP_HOST'].'/sincloud');
 
 // AUTO LOAD DE CLASSES ######
 function __autoload($Class) {
